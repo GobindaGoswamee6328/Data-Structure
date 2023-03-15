@@ -14,7 +14,7 @@ int main(){
 
   int array[number_of_row][number_of_coloumn];
 
-//input option :
+
    cout<<"Input the value : ";
   for(int a=0; a<number_of_row; a++){
     for(int b=0; b<number_of_coloumn; b++){
@@ -23,7 +23,7 @@ int main(){
   }
 
 
-//output option :
+
   for(int a=0; a<number_of_row; a++){
     for(int b=0; b<number_of_coloumn; b++){
         cout<<array[a][b]<<" ";
@@ -32,7 +32,7 @@ int main(){
   }
 
 
-  //Search :
+  
   int search_value;
   cout<<"Enter search the Value : ";
   cin>>search_value;
